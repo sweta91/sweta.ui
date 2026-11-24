@@ -93,3 +93,4 @@ const experience = [
 export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
   const closeMenu = () => setMenuOpen(false);
+}
