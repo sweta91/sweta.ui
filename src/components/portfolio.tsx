@@ -12,8 +12,7 @@ const skillGroups = [
 
 const projects = [
   { number: '01', name: 'MediBook', type: 'Healthcare · Next.js', description: 'A healthcare appointment platform concept with doctor discovery, specialty filters, doctor profiles and appointment booking flows.', tags: ['Next.js', 'React', 'TypeScript', 'SCSS'], status: 'In development', tone: 'blue', href: 'https://github.com/sweta91/medibook-healthcare-platform' },
-  { number: '02', name: 'WordCamp Mumbai 2026', type: 'Event website · Next.js', description: 'A responsive event website built to present event information, ticket registration and payment flows.', tags: ['Next.js', 'TypeScript', 'SCSS', 'Vercel'], status: 'Built & deployed', tone: 'purple', href: 'https://wordcamp-mumbai-2026.vercel.app/' },
-  { number: '03', name: 'Personal portfolio', type: 'Personal brand · Web', description: 'A portfolio focused on frontend engineering, UI craft, selected work and professional experience.', tags: ['React', 'Next.js', 'UI design'], status: 'Redesigning', tone: 'teal', href: 'https://sweta91.github.io/sweta.ui/' },
+  { number: '02', name: 'Personal portfolio', type: 'Personal brand · Web', description: 'A portfolio focused on frontend engineering, UI craft, selected work and professional experience.', tags: ['React', 'Next.js', 'UI design'], status: 'Redesigning', tone: 'teal', href: 'https://sweta91.github.io/sweta.ui/' },
 ];
 
 const experience = [
@@ -91,7 +90,84 @@ export default function Portfolio() {
 
       <section className="section wrap" id="learning"><div className="learning-card"><div><p className="eyebrow">05 / ALWAYS LEARNING</p><h2>Curiosity keeps<br/><span className="muted">the code fresh.</span></h2><p>Continuously growing across modern frontend architecture, React, Next.js and Generative AI.</p></div><div className="learning-list"><div><span>01</span><b>React – Basic & Advanced</b><small>Coursera</small></div><div><span>02</span><b>Generative AI: Prompt Engineering Basics</b><small>Certification completed</small></div><div><span>03</span><b>Modern frontend development</b><small>Hands-on project learning</small></div></div></div></section>
 
-      <section className="contact-section" id="contact"><div className="wrap contact-inner"><p className="eyebrow">06 / WHAT’S NEXT?</p><h2>Have a good<br/>project in <span className="gradient-text">mind?</span></h2><p className="contact-copy">I’m open to Senior UI Developer, Frontend Engineer and UI Lead opportunities. Let’s make something meaningful.</p><a className="button button-primary contact-button" href="mailto:YOUR_EMAIL@example.com">Say hello <ArrowUpRight size={17}/></a><div className="contact-bottom"><span>Vadodara, India · Open to opportunities</span><div className="social-links"><a href="https://github.com/sweta91" target="_blank" rel="noreferrer" aria-label="GitHub"><Github/></a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin/></a><a href="mailto:YOUR_EMAIL@example.com" aria-label="Email"><Mail/></a></div></div></div></section>
+      
+<section className="contact-section" id="contact">
+  <div className="wrap contact-inner">
+    <p className="eyebrow">06 / WHAT&apos;S NEXT?</p>
+
+    <h2>
+      Have a good<br />
+      project in <span className="gradient-text">mind?</span>
+    </h2>
+
+    <p className="contact-copy">
+      I&apos;m open to Senior UI Developer, Frontend Engineer
+      and UI Lead opportunities. Let&apos;s make something meaningful.
+    </p>
+
+    <a
+      className="button button-primary contact-button"
+      href="mailto:swetapatil1991@gmail.com"
+    >
+      Say hello <ArrowUpRight size={17} />
+    </a>
+
+    <div className="contact-bottom">
+      <span>Vadodara, India · Open to opportunities</span>
+
+      <div className="social-links">
+        <a
+          href="https://github.com/sweta91"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="GitHub"
+          title="GitHub"
+        >
+          <Github />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/sweta-patil-a5711a69/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="LinkedIn"
+          title="LinkedIn"
+        >
+          <Linkedin />
+        </a>
+
+        <a
+          href="https://www.behance.net/swetapatil"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Behance"
+          title="Behance"
+        >
+          <Palette />
+        </a>
+
+        <a
+          href="https://promptbase.com/profile/swetapatil"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="PromptBase"
+          title="PromptBase"
+        >
+          <Sparkles />
+        </a>
+
+        <a
+          href="mailto:swetapatil1991@gmail.com"
+          aria-label="Email"
+          title="Email"
+        >
+          <Mail />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
       <footer className="footer wrap"><a className="brand" href="#home"><span className="brand-mark">S</span><span>SWETA<span className="muted">.PATIL</span></span></a><span>Designed with intention. Built with care.</span><a href="#home">BACK TO TOP ↑</a></footer>
     </main>
   );
