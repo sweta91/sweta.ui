@@ -29,7 +29,6 @@ const skillGroups = [
     'Razorpay',
   ],
 },
-
   { title: 'Emerging technologies', icon: Sparkles, skills: ['Generative AI', 'Prompt engineering', 'AI-assisted development', 'Google Stitch'] },
 ];
 
