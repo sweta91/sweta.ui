@@ -46,7 +46,32 @@ export default function Portfolio() {
         </div>
         <div className="hero-visual" aria-label="Decorative frontend engineering graphic">
           <div className="orbit orbit-a"/><div className="orbit orbit-b"/><div className="orbit orbit-c"/>
-          <div className="code-window"><div className="window-bar"><span/><span/><span/><small>sweta.tsx</small></div><div className="code-content"><p><i>01</i> <em>const</em> developer = {'{'}</p><p><i>02</i> &nbsp;name: <b>'Sweta Patil'</b>,</p><p><i>03</i> &nbsp;role: <b>'Frontend Engineer'</b>,</p><p><i>04</i> &nbsp;experience: <b>'10+ years'</b>,</p><p><i>05</i> &nbsp;focus: [</p><p><i>06</i> &nbsp;&nbsp;<b>'React'</b>, <b>'Next.js'</b>,</p><p><i>07</i> &nbsp;&nbsp;<b>'UI Engineering'</b></p><p><i>08</i> &nbsp;]</p><p><i>09</i> {'}'}</p><p className="code-cursor"><i>10</i> <span/></p></div></div>
+
+<div className="code-window">
+  <div className="window-bar">
+    <span />
+    <span />
+    <span />
+    <small>sweta.tsx</small>
+  </div>
+
+  <div className="code-content">
+    <p><i>01</i> <em>const</em> developer = {'{'}</p>
+    <p><i>02</i> &nbsp;name: <b>&apos;Sweta Patil&apos;</b>,</p>
+    <p><i>03</i> &nbsp;role: <b>&apos;Senior Frontend Engineer&apos;</b>,</p>
+    <p><i>04</i> &nbsp;experience: <b>&apos;10+ years&apos;</b>,</p>
+    <p><i>05</i> &nbsp;specialization: [</p>
+    <p><i>06</i> &nbsp;&nbsp;<b>&apos;React&apos;</b>, <b>&apos;Next.js&apos;</b>,</p>
+    <p><i>07</i> &nbsp;&nbsp;<b>&apos;JavaScript&apos;</b>, <b>&apos;TypeScript&apos;</b>,</p>
+    <p><i>08</i> &nbsp;&nbsp;<b>&apos;UI Engineering&apos;</b>,</p>
+    <p><i>09</i> &nbsp;&nbsp;<b>&apos;Responsive Design&apos;</b></p>
+    <p><i>10</i> &nbsp;],</p>
+    <p><i>11</i> &nbsp;currentlyBuilding: <b>&apos;MediBook&apos;</b></p>
+    <p><i>12</i> {'}'}</p>
+    <p className="code-cursor"><i>13</i> <span /></p>
+  </div>
+</div>
+
           <div className="float-chip chip-react"><span>⚛</span> React</div><div className="float-chip chip-next">▲ Next.js</div><div className="float-chip chip-ui"><Palette size={15}/> UI craft</div>
           <div className="visual-caption"><span className="caption-line"/> Thoughtful design. Solid code.</div>
         </div>
