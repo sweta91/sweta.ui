@@ -120,7 +120,49 @@ export default function Portfolio() {
 
       <section className="section section-alt" id="work"><div className="wrap"><div className="section-heading row-heading"><div><p className="eyebrow">04 / SELECTED WORK</p><h2>Some things I’ve<br/><span className="muted">been building.</span></h2></div><p className="heading-note">A selection of hands-on projects that show my approach to product UI and frontend development.</p></div><div className="projects-grid">{projects.map(project => <article className={`project-card ${project.tone}`} key={project.number}><div className="project-art"><span className="project-number">/{project.number}</span><div className="art-orbit art-orbit-one"/><div className="art-orbit art-orbit-two"/><div className="art-window"><div className="art-window-head"><span/><span/><span/></div><div className="art-window-body"><div className="art-sidebar"/><div className="art-content"><div/><div/><div/><div/></div></div></div><span className="project-status">{project.status}</span></div><div className="project-info"><p className="project-type">{project.type}</p><div className="project-title-row"><h3>{project.name}</h3><a href={project.href} target="_blank" rel="noreferrer" aria-label={`Open ${project.name}`}><ArrowUpRight size={19}/></a></div><p className="project-description">{project.description}</p><div className="project-tags">{project.tags.map(tag => <span key={tag}>{tag}</span>)}</div></div></article>)}</div></div></section>
 
-      <section className="section wrap" id="learning"><div className="learning-card"><div><p className="eyebrow">05 / ALWAYS LEARNING</p><h2>Curiosity keeps<br/><span className="muted">the code fresh.</span></h2><p>Continuously growing across modern frontend architecture, React, Next.js and Generative AI.</p></div><div className="learning-list"><div><span>01</span><b>React – Basic & Advanced</b><small>Coursera</small></div><div><span>02</span><b>Generative AI: Prompt Engineering Basics</b><small>Certification completed</small></div><div><span>03</span><b>Modern frontend development</b><small>Hands-on project learning</small></div></div></div></section>
+    
+<section className="section wrap" id="learning">
+  <div className="learning-card">
+    <div>
+      <p className="eyebrow">05 / ALWAYS LEARNING</p>
+      <h2>
+        Curiosity keeps<br />
+        <span className="muted">the code fresh.</span>
+      </h2>
+      <p>
+        Continuously growing across modern frontend architecture,
+        React, Next.js, Generative AI and Scrum fundamentals.
+      </p>
+    </div>
+
+    <div className="learning-list">
+      <div>
+        <span>01</span>
+        <b>React – Basic &amp; Advanced</b>
+        <small>Coursera</small>
+      </div>
+
+      <div>
+        <span>02</span>
+        <b>Generative AI: Prompt Engineering Basics</b>
+        <small>Certification completed</small>
+      </div>
+
+      <div>
+        <span>03</span>
+        <b>Modern frontend development</b>
+        <small>Hands-on project learning</small>
+      </div>
+
+      <div>
+        <span>04</span>
+        <b>Scrum Basic Certification</b>
+        <small>Certification completed</small>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       
 <section className="contact-section" id="contact">
