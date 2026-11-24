@@ -13,7 +13,23 @@ import {
 const skillGroups = [
   { title: 'Frontend development', icon: Code2, skills: ['React', 'Next.js', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'jQuery', 'TypeScript fundamentals'] },
   { title: 'UI engineering', icon: Palette, skills: ['Responsive design', 'Pixel-perfect implementation', 'Figma', 'Accessibility', 'Flexbox & Grid', 'Tailwind CSS', 'Bootstrap', 'BEM'] },
-  { title: 'Tools & platforms', icon: MonitorSmartphone, skills: ['Git', 'GitHub', 'Vercel', 'WordPress', 'REST API integration', 'VS Code'] },
+  
+{
+  title: 'Tools & platforms',
+  icon: MonitorSmartphone,
+  skills: [
+    'Git',
+    'GitHub',
+    'Vercel',
+    'WordPress',
+    'REST API integration',
+    'VS Code',
+    'Supabase Database',
+    'Payment Integration',
+    'Razorpay',
+  ],
+},
+
   { title: 'Emerging technologies', icon: Sparkles, skills: ['Generative AI', 'Prompt engineering', 'AI-assisted development', 'Google Stitch'] },
 ];
 
