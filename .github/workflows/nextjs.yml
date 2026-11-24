@@ -6,6 +6,7 @@ on:
     branches:
       - main
       - redesign/nextjs-portfolio
+      - redesign/premium-light-portfolio
   pull_request:
     branches:
       - main
