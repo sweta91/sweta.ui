@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 
+
 import {
   ArrowDownRight,
   ArrowUpRight,
@@ -14,9 +15,9 @@ import {
   MonitorSmartphone,
   Palette,
   X,
-  Database,
-  ExternalLink,
+  Sparkles,
 } from 'lucide-react';
+
 
 
 const skillGroups = [
