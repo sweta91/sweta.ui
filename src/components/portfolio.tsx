@@ -43,7 +43,7 @@ const skillGroups = [
 ];
 
 const projects = [
-  { number: '01', name: 'MediBook', type: 'Healthcare · Next.js', description: 'A healthcare appointment platform concept with doctor discovery, specialty filters, doctor profiles and appointment booking flows.', tags: ['Next.js', 'React', 'TypeScript', 'SCSS'], status: 'In development', tone: 'blue', href: 'https://github.com/sweta91/medibook-healthcare-platform' },
+  { number: '01', name: 'MediBook', type: 'Healthcare · Next.js', description: 'A healthcare appointment platform concept with doctor discovery, specialty filters, doctor profiles and appointment booking flows.', tags: ['Next.js', 'React', 'TypeScript', 'SCSS'], status: 'In development', tone: 'blue', href: 'https://medibook-healthcare-platform.vercel.app/' },
   { number: '02', name: 'Personal portfolio', type: 'Personal brand · Web', description: 'A portfolio focused on frontend engineering, UI craft, selected work and professional experience.', tags: ['React', 'Next.js', 'UI design'], status: 'Redesigning', tone: 'teal', href: 'https://sweta91.github.io/sweta.ui/' },
 ];
 
