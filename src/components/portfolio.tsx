@@ -1,14 +1,23 @@
 'use client';
 
 import { useState } from 'react';
+
 import {
+  ArrowDownRight,
   ArrowUpRight,
+  BriefcaseBusiness,
+  Code2,
   Github,
   Linkedin,
   Mail,
+  Menu,
+  MonitorSmartphone,
   Palette,
-  Sparkles,
+  X,
+  Database,
+  ExternalLink,
 } from 'lucide-react';
+
 
 const skillGroups = [
   { title: 'Frontend development', icon: Code2, skills: ['React', 'Next.js', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'jQuery', 'TypeScript fundamentals'] },
