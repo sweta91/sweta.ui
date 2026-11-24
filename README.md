@@ -1,24 +1,31 @@
 # Sweta Patil — Next.js Portfolio
 
-A dark, responsive portfolio starter built with Next.js App Router, React, TypeScript and custom CSS.
+Premium light-theme portfolio built with Next.js App Router, React, TypeScript and custom CSS.
+
+## Personal links
+- Email: swetapatil1991@gmail.com
+- LinkedIn: https://www.linkedin.com/in/sweta-patil-a5711a69/
+- GitHub: https://github.com/sweta91
+- Behance: https://www.behance.net/swetapatil
 
 ## Run locally
 
-1. Install Node.js 20.9+.
-2. Open this folder in VS Code / terminal.
-3. Run `npm install`.
-4. Run `npm run dev`.
-5. Open http://localhost:3000.
+```bash
+npm install
+npm run dev
+```
 
-## Before publishing — personalize these items
+## Build
 
-- Replace `YOUR_EMAIL@example.com` in `src/components/portfolio.tsx` with your professional email.
-- Replace the LinkedIn placeholder URL with your actual profile URL.
-- Add your verified employer names, job titles, dates and achievements in the `experience` array.
-- Add your resume PDF to `public/` and add a Resume link if desired.
-- Verify the project URLs and descriptions. MediBook is identified as in development.
-- Add real project screenshots in `public/` and replace the CSS mock project artwork when available.
+```bash
+npm run build
+```
 
-## Deployment
+The project uses `output: 'export'` and the `/sweta.ui` base path for GitHub Pages project-site hosting. The exported static site is generated in `out/`.
 
-The project is configured with `output: 'export'` for static hosting. For Vercel, import the GitHub repository, use `npm run build`, and deploy. For GitHub Pages, publish the generated `out/` folder using a GitHub Actions workflow and configure the correct base path if deploying under a repository subpath.
+## Featured work
+- MediBook — healthcare appointment platform (in development).
+- React fundamentals — learning project showcase.
+- React website UI — responsive frontend showcase.
+
+No employer names or company employment history are displayed.
