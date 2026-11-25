@@ -43,8 +43,9 @@ const skillGroups = [
 ];
 
 const projects = [
-  { number: '01', name: 'MediBook', type: 'Healthcare · Next.js', description: 'A healthcare appointment platform concept with doctor discovery, specialty filters, doctor profiles and appointment booking flows.', tags: ['Next.js', 'React', 'TypeScript', 'SCSS'], status: 'In development', tone: 'blue', href: 'https://medibook-healthcare-platform.vercel.app/' },
-  { number: '02', name: 'Personal portfolio', type: 'Personal brand · Web', description: 'A portfolio focused on frontend engineering, UI craft, selected work and professional experience.', tags: ['React', 'Next.js', 'UI design'], status: 'Redesigning', tone: 'teal', href: 'https://sweta91.github.io/sweta.ui/' },
+  { number: '01', name: 'Pulseboard', type: 'SaaS analytics dashboard · Next.js', description: 'A functional SaaS analytics dashboard featuring revenue insights, KPI comparisons, customer management, transaction tracking and date filters. Integrated with Supabase and PostgreSQL.', tags: ['Next.js', 'React', 'TypeScript', 'Supabase', 'PostgreSQL'], status: 'Live', tone: 'teal', href: 'https://pulseboard-saas-jyhhfzzru-sweta91.vercel.app/' },
+  { number: '02', name: 'MediBook', type: 'Healthcare · Next.js', description: 'A healthcare appointment platform concept with doctor discovery, specialty filters, doctor profiles and appointment booking flows.', tags: ['Next.js', 'React', 'TypeScript', 'SCSS'], status: 'In development', tone: 'blue', href: 'https://medibook-healthcare-platform.vercel.app/' },
+  { number: '03', name: 'Personal portfolio', type: 'Personal brand · Web', description: 'A portfolio focused on frontend engineering, UI craft, selected work and professional experience.', tags: ['React', 'Next.js', 'UI design'], status: 'Redesigning', tone: 'teal', href: 'https://sweta91.github.io/sweta.ui/' },
 ];
 
 const experience = [
@@ -97,7 +98,7 @@ export default function Portfolio() {
     <p><i>08</i> &nbsp;&nbsp;<b>&apos;UI Engineering&apos;</b>,</p>
     <p><i>09</i> &nbsp;&nbsp;<b>&apos;Responsive Design&apos;</b></p>
     <p><i>10</i> &nbsp;],</p>
-    <p><i>11</i> &nbsp;currentlyBuilding: <b>&apos;MediBook&apos;</b></p>
+    <p><i>11</i> &nbsp;currentlyBuilding: <b>&apos;Pulseboard&apos;</b></p>
     <p><i>12</i> {'}'}</p>
     <p className="code-cursor"><i>13</i> <span /></p>
   </div>
