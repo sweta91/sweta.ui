@@ -4,7 +4,7 @@ name: Deploy Original Dark Portfolio
 on:
   push:
     branches:
-      - redesign/nextjs-portfolio
+      - feature/theme-switcher
 
   pull_request:
     branches:
