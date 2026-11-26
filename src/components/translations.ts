@@ -29,6 +29,7 @@ export function translate(language: Language, text: string): string {
 }
 
 const supplemental: Record<Language, Record<string, string>> = {
+  "en": {},
   "es": {
     "Senior UI Developer & Frontend Engineer with 10+ years of experience turning complex ideas into intuitive, responsive and high-performing web experiences.": "Desarrolladora UI sénior e ingeniera frontend con más de 10 años de experiencia transformando ideas complejas en experiencias web intuitivas, adaptables y de alto rendimiento.",
     "I sit at the intersection of clean code, thoughtful UX and the details that make a product feel effortless.": "Combino código limpio, UX bien pensada y detalles que hacen que un producto resulte sencillo de usar.",
