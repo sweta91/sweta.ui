@@ -43,7 +43,6 @@ jobs:
           path: ./out
 
   deploy:
-    if: github.ref == 'refs/heads/redesign/nextjs-portfolio'
     needs: build
     runs-on: ubuntu-latest
 
