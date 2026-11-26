@@ -3,8 +3,14 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/sweta.ui',
+
+  basePath:
+    process.env.NODE_ENV === 'production'
+      ? '/sweta.ui'
+      : '',
+
   trailingSlash: true,
+
   images: {
     unoptimized: true,
   },
